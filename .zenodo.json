@@ -1,0 +1,16 @@
+{
+  "title": "Code and data for: Adaptive Coordination of MPPT and Virtual Inertia Control in Grid-Connected PV-BESS Systems with Limit-Cycle Detection",
+  "upload_type": "software",
+  "description": "Averaged PV-BESS model (Python, with a Julia port), robust Monte Carlo-CVaR / NSGA-II tuning, scenario campaign, describing-function and circle-criterion analysis, robustness tests of revision R1, and the switching-level Simulink testbed, with all raw results and figures. Accompanies the article submitted to Emerging Science Journal.",
+  "creators": [
+    {"name": "Prakoso, Dimas Nur", "affiliation": "Institut Teknologi Sepuluh Nopember", "orcid": "0009-0007-8410-9888"},
+    {"name": "Soeprijanto, Adi", "affiliation": "Institut Teknologi Sepuluh Nopember", "orcid": "0000-0003-1886-1928"},
+    {"name": "Putra, Dimas Fajar Uman", "affiliation": "Institut Teknologi Sepuluh Nopember", "orcid": "0000-0001-6760-2637"},
+    {"name": "Wardhana, Ananthyo Whisnu", "affiliation": "Institut Teknologi Sepuluh Nopember", "orcid": "0009-0007-9922-9583"},
+    {"name": "Winarno, Basuki", "affiliation": "Politeknik Negeri Madiun", "orcid": "0000-0002-3103-6845"},
+    {"name": "Prabatama, Nicky Andre", "affiliation": "Univ. Gustave Eiffel, CNRS, ESYCOM", "orcid": "0009-0005-7920-7905"}
+  ],
+  "license": "MIT",
+  "keywords": ["photovoltaic", "battery energy storage", "virtual inertia", "MPPT", "limit cycle", "frequency support", "fast frequency response"],
+  "access_right": "open"
+}
