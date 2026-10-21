@@ -1,0 +1,28 @@
+PRODUKSI NSGA-II vektorisasi | POP=60 GEN=80 N_MC=200 gamma=0.95
+  gen   5/80 | front= 60 | minF1=0.0072 minF4=1.307e-05 |   90.1s
+  gen  10/80 | front= 60 | minF1=0.0066 minF4=3.401e-06 |  158.8s
+  gen  15/80 | front= 60 | minF1=0.0063 minF4=3.381e-06 |  245.3s
+  gen  20/80 | front= 60 | minF1=0.0063 minF4=2.703e-06 |  326.7s
+  gen  25/80 | front= 60 | minF1=0.0063 minF4=2.703e-06 |  399.1s
+  gen  30/80 | front= 60 | minF1=0.0063 minF4=2.159e-06 |  471.6s
+  gen  35/80 | front= 60 | minF1=0.0063 minF4=2.159e-06 |  540.5s
+  gen  40/80 | front= 60 | minF1=0.0063 minF4=2.159e-06 |  609.8s
+  gen  45/80 | front= 60 | minF1=0.0062 minF4=2.159e-06 |  679.8s
+  gen  50/80 | front= 60 | minF1=0.0062 minF4=2.159e-06 |  755.1s
+  gen  55/80 | front= 60 | minF1=0.0062 minF4=2.159e-06 |  891.2s
+  gen  60/80 | front= 60 | minF1=0.0061 minF4=2.159e-06 |  967.4s
+  gen  65/80 | front= 60 | minF1=0.0061 minF4=2.159e-06 | 1038.1s
+  gen  70/80 | front= 60 | minF1=0.0061 minF4=2.159e-06 | 1107.0s
+  gen  75/80 | front= 60 | minF1=0.0061 minF4=2.159e-06 | 1176.3s
+  gen  80/80 | front= 60 | minF1=0.0061 minF4=2.159e-06 | 1247.3s
+
+selesai 1247.4s | front akhir 60 solusi
+=== KNEE POINT (produksi) ===
+         Kd = 1.0045
+         Kj = 0.0317
+         ka = 47.4830
+        kaw = 1.0000
+         kb = 45.7966
+   beta_max = 0.2497
+  F = [0.0209 0.0464 0.5969 0.0046]
+pareto_front_prod.csv ditulis

@@ -1,0 +1,5 @@
+mode,controller,nadir_Hz,maxRoCoF_Hzps,Pp2p_pu_lp25,Pp2p_pu_raw,fosc_Hz,LC,eBESS_pu_s,f_ss_Hz
+0,no support,46.1177,1.2215,0.01156,0.04760,9.50,True,0.0209,46.4497
+1,proposed (adaptive),49.5850,1.1505,0.00439,0.04178,3.00,False,0.5337,49.5855
+2,static relay (paper),48.9675,1.2642,0.20997,0.36419,3.50,True,0.5592,49.0246
+3,relay at 49.7 Hz,49.6465,1.1924,0.13690,0.18056,3.50,True,0.6396,49.6967

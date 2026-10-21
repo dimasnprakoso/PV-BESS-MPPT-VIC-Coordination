@@ -1,0 +1,11 @@
+U1_SOC_rendah   adaptive         |dev|max=1.017Hz Pp2p=0.0007 (maks 0.0010) LC=0/100 SOCmin=0.2001 SOCend=0.2253 phi_min=0.507 eBESS=1.092  [21s]
+U1_SOC_rendah   adaptive_hardcut |dev|max=0.453Hz Pp2p=0.0006 (maks 0.0022) LC=0/100 SOCmin=0.2000 SOCend=0.2251 phi_min=0.980 eBESS=1.459  [41s]
+U1_SOC_rendah   static           |dev|max=1.186Hz Pp2p=0.1032 (maks 0.2132) LC=87/100 SOCmin=0.2001 SOCend=0.2253 phi_min=0.506 eBESS=1.153  [59s]
+U2_SOC_tinggi   adaptive         |dev|max=1.169Hz Pp2p=0.0007 (maks 0.0008) LC=0/100 SOCmin=0.8515 SOCend=0.8769 phi_min=0.462 eBESS=1.079  [79s]
+U2_SOC_tinggi   adaptive_hardcut |dev|max=0.442Hz Pp2p=0.0006 (maks 0.0021) LC=0/100 SOCmin=0.8515 SOCend=0.8772 phi_min=0.990 eBESS=1.545  [100s]
+U2_SOC_tinggi   static           |dev|max=1.328Hz Pp2p=0.1142 (maks 0.2596) LC=79/100 SOCmin=0.8515 SOCend=0.8769 phi_min=0.462 eBESS=1.007  [118s]
+U3_pengurasan   adaptive         |dev|max=2.341Hz Pp2p=0.0007 (maks 0.0008) LC=0/100 SOCmin=0.2036 SOCend=0.2036 phi_min=0.073 eBESS=2.338  [235s]
+U3_pengurasan   adaptive_hardcut |dev|max=2.195Hz Pp2p=0.0020 (maks 0.0711) LC=0/100 SOCmin=0.2000 SOCend=0.2004 phi_min=0.330 eBESS=7.949  [344s]
+U3_pengurasan   static           |dev|max=2.441Hz Pp2p=0.0023 (maks 0.0210) LC=8/100 SOCmin=0.2029 SOCend=0.2030 phi_min=0.059 eBESS=3.477  [430s]
+
+selesai 430 s

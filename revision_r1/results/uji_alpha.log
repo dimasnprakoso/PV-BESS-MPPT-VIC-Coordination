@@ -1,0 +1,72 @@
+T1_ambient        adaptive     nadir=49.909 fstd=33.2mHz RoCoF=0.181 eBESS=0.241 eMPP=0.242 LC=3/100  [31s]
+T1_ambient        noalpha      nadir=49.914 fstd=31.3mHz RoCoF=0.177 eBESS=0.226 eMPP=0.246 LC=3/100  [58s]
+T1_ambient        smooth025    nadir=49.912 fstd=32.2mHz RoCoF=0.178 eBESS=0.233 eMPP=0.244 LC=3/100  [86s]
+T1_ambient        smoothstatic nadir=49.937 fstd=22.4mHz RoCoF=0.159 eBESS=0.260 eMPP=0.267 LC=3/100  [117s]
+T1_ambient        static       nadir=49.671 fstd=131.9mHz RoCoF=0.252 eBESS=0.000 eMPP=0.046 LC=0/100  [148s]
+T2_ambient_lowH   adaptive     nadir=49.885 fstd=38.9mHz RoCoF=0.463 eBESS=0.280 eMPP=0.281 LC=7/100  [183s]
+T2_ambient_lowH   noalpha      nadir=49.892 fstd=36.3mHz RoCoF=0.452 eBESS=0.261 eMPP=0.284 LC=7/100  [214s]
+T2_ambient_lowH   smooth025    nadir=49.889 fstd=37.4mHz RoCoF=0.444 eBESS=0.269 eMPP=0.281 LC=7/100  [244s]
+T2_ambient_lowH   smoothstatic nadir=49.923 fstd=25.2mHz RoCoF=0.414 eBESS=0.290 eMPP=0.298 LC=14/100  [273s]
+T2_ambient_lowH   static       nadir=49.429 fstd=221.9mHz RoCoF=0.738 eBESS=0.000 eMPP=0.073 LC=0/100  [305s]
+T3_ambient_event  adaptive     nadir=49.509 fstd=207.1mHz RoCoF=0.909 eBESS=1.007 eMPP=1.032 LC=0/100  [336s]
+T3_ambient_event  noalpha      nadir=49.538 fstd=195.0mHz RoCoF=0.904 eBESS=0.954 eMPP=1.042 LC=0/100  [364s]
+T3_ambient_event  smooth025    nadir=49.517 fstd=203.5mHz RoCoF=0.899 eBESS=0.989 eMPP=1.035 LC=0/100  [392s]
+T3_ambient_event  smoothstatic nadir=49.689 fstd=130.7mHz RoCoF=0.884 eBESS=1.064 eMPP=1.094 LC=0/100  [419s]
+T3_ambient_event  static       nadir=48.978 fstd=472.8mHz RoCoF=0.965 eBESS=1.109 eMPP=1.224 LC=100/100  [446s]
+T4_berulang       adaptive     nadir=49.512 fstd=199.4mHz RoCoF=0.981 eBESS=1.709 eMPP=1.752 LC=0/100  [481s]
+T4_berulang       noalpha      nadir=49.539 fstd=188.4mHz RoCoF=0.975 eBESS=1.616 eMPP=1.765 LC=0/100  [513s]
+T4_berulang       smooth025    nadir=49.520 fstd=195.8mHz RoCoF=0.971 eBESS=1.678 eMPP=1.756 LC=0/100  [545s]
+T4_berulang       smoothstatic nadir=49.690 fstd=128.5mHz RoCoF=0.947 eBESS=1.780 eMPP=1.829 LC=1/100  [576s]
+T4_berulang       static       nadir=48.976 fstd=298.9mHz RoCoF=1.174 eBESS=1.782 eMPP=2.023 LC=0/100  [608s]
+
+=== noalpha / smooth025 dibanding usulan (varian - usulan): median [CI95], Cliff d ===
+T1_ambient        noalpha      nadir_Hz   +0.0048 [+0.0046,+0.0051] d=+0.16
+T1_ambient        noalpha      fstd_Hz    -1.9557 [-2.0787,-1.8774] d=-0.22
+T1_ambient        noalpha      eBESS_pu_s -0.0146 [-0.0153,-0.0135] d=-0.21
+T1_ambient        noalpha      eMPP_pu_s  +0.0043 [+0.0042,+0.0045] d=+0.07
+T1_ambient        smooth025    nadir_Hz   +0.0027 [+0.0025,+0.0029] d=+0.10
+T1_ambient        smooth025    fstd_Hz    -1.0617 [-1.1114,-1.0139] d=-0.12
+T1_ambient        smooth025    eBESS_pu_s -0.0079 [-0.0082,-0.0074] d=-0.12
+T1_ambient        smooth025    eMPP_pu_s  +0.0015 [+0.0014,+0.0016] d=+0.03
+T1_ambient        smoothstatic nadir_Hz   +0.0269 [+0.0258,+0.0287] d=+0.83
+T1_ambient        smoothstatic fstd_Hz    -10.6611 [-11.2779,-10.2234] d=-0.92
+T1_ambient        smoothstatic eBESS_pu_s +0.0185 [+0.0177,+0.0199] d=+0.26
+T1_ambient        smoothstatic eMPP_pu_s  +0.0248 [+0.0237,+0.0258] d=+0.33
+T2_ambient_lowH   noalpha      nadir_Hz   +0.0071 [+0.0067,+0.0074] d=+0.22
+T2_ambient_lowH   noalpha      fstd_Hz    -2.6096 [-2.6858,-2.5339] d=-0.32
+T2_ambient_lowH   noalpha      eBESS_pu_s -0.0191 [-0.0198,-0.0184] d=-0.30
+T2_ambient_lowH   noalpha      eMPP_pu_s  +0.0028 [+0.0027,+0.0029] d=+0.05
+T2_ambient_lowH   smooth025    nadir_Hz   +0.0041 [+0.0040,+0.0043] d=+0.14
+T2_ambient_lowH   smooth025    fstd_Hz    -1.5003 [-1.5486,-1.4539] d=-0.18
+T2_ambient_lowH   smooth025    eBESS_pu_s -0.0110 [-0.0113,-0.0106] d=-0.17
+T2_ambient_lowH   smooth025    eMPP_pu_s  -0.0000 [-0.0001,+0.0001] d=-0.00
+T2_ambient_lowH   smoothstatic nadir_Hz   +0.0383 [+0.0363,+0.0404] d=+0.93
+T2_ambient_lowH   smoothstatic fstd_Hz    -13.6603 [-13.9587,-13.2696] d=-0.99
+T2_ambient_lowH   smoothstatic eBESS_pu_s +0.0103 [+0.0100,+0.0106] d=+0.16
+T2_ambient_lowH   smoothstatic eMPP_pu_s  +0.0171 [+0.0167,+0.0177] d=+0.25
+T3_ambient_event  noalpha      nadir_Hz   +0.0287 [+0.0256,+0.0309] d=+0.14
+T3_ambient_event  noalpha      fstd_Hz    -12.5654 [-13.3551,-10.8613] d=-0.13
+T3_ambient_event  noalpha      eBESS_pu_s -0.0548 [-0.0570,-0.0508] d=-0.14
+T3_ambient_event  noalpha      eMPP_pu_s  +0.0100 [+0.0094,+0.0108] d=+0.03
+T3_ambient_event  smooth025    nadir_Hz   +0.0082 [+0.0081,+0.0083] d=+0.05
+T3_ambient_event  smooth025    fstd_Hz    -3.7541 [-3.8781,-3.6493] d=-0.04
+T3_ambient_event  smooth025    eBESS_pu_s -0.0179 [-0.0183,-0.0175] d=-0.05
+T3_ambient_event  smooth025    eMPP_pu_s  +0.0031 [+0.0030,+0.0032] d=+0.02
+T3_ambient_event  smoothstatic nadir_Hz   +0.1830 [+0.1618,+0.2009] d=+0.72
+T3_ambient_event  smoothstatic fstd_Hz    -79.3471 [-86.2372,-67.6201] d=-0.68
+T3_ambient_event  smoothstatic eBESS_pu_s +0.0561 [+0.0516,+0.0640] d=+0.15
+T3_ambient_event  smoothstatic eMPP_pu_s  +0.0627 [+0.0583,+0.0668] d=+0.15
+T4_berulang       noalpha      nadir_Hz   +0.0285 [+0.0249,+0.0307] d=+0.13
+T4_berulang       noalpha      fstd_Hz    -10.8263 [-12.0112,-9.9570] d=-0.12
+T4_berulang       noalpha      eBESS_pu_s -0.0972 [-0.1042,-0.0872] d=-0.13
+T4_berulang       noalpha      eMPP_pu_s  +0.0122 [+0.0116,+0.0134] d=+0.03
+T4_berulang       smooth025    nadir_Hz   +0.0083 [+0.0081,+0.0084] d=+0.04
+T4_berulang       smooth025    fstd_Hz    -3.6449 [-3.7250,-3.4300] d=-0.04
+T4_berulang       smooth025    eBESS_pu_s -0.0311 [-0.0314,-0.0305] d=-0.05
+T4_berulang       smooth025    eMPP_pu_s  +0.0036 [+0.0035,+0.0037] d=+0.02
+T4_berulang       smoothstatic nadir_Hz   +0.1858 [+0.1572,+0.2005] d=+0.72
+T4_berulang       smoothstatic fstd_Hz    -72.1140 [-79.6579,-62.6137] d=-0.66
+T4_berulang       smoothstatic eBESS_pu_s +0.0671 [+0.0599,+0.0838] d=+0.10
+T4_berulang       smoothstatic eMPP_pu_s  +0.0758 [+0.0713,+0.0860] d=+0.10
+
+selesai 610 s

@@ -1,0 +1,93 @@
+S3 adaptive     nadir=49.591±0.123 RoCoF=0.939 Pp2p=0.0007 fosc~12.50 eBESS=0.496 eMPP=0.509 LC=0/100
+S3 smooth025    nadir=49.598±0.123 RoCoF=0.929 Pp2p=0.0007 fosc~12.50 eBESS=0.488 eMPP=0.511 LC=0/100
+S3 noalpha      nadir=49.616±0.116 RoCoF=0.934 Pp2p=0.0006 fosc~12.50 eBESS=0.471 eMPP=0.514 LC=0/100
+S3 novic        nadir=49.579±0.130 RoCoF=0.939 Pp2p=0.0007 fosc~12.50 eBESS=0.507 eMPP=0.507 LC=0/100
+S3 smoothstatic nadir=49.745±0.075 RoCoF=0.914 Pp2p=0.0006 fosc~12.50 eBESS=0.527 eMPP=0.542 LC=0/100
+S3 static       nadir=48.980±0.011 RoCoF=0.977 Pp2p=0.1603 fosc~4.50 eBESS=0.555 eMPP=0.609 LC=100/100
+S3 static_m015  nadir=48.975±0.015 RoCoF=0.965 Pp2p=0.1054 fosc~5.00 eBESS=0.331 eMPP=0.386 LC=100/100
+S3 static_hyst  nadir=48.980±0.011 RoCoF=1.775 Pp2p=0.2455 fosc~0.50 eBESS=0.649 eMPP=0.691 LC=1/100
+S4 adaptive     nadir=49.568±0.123 RoCoF=2.962 Pp2p=0.0006 fosc~12.50 eBESS=0.510 eMPP=0.524 LC=0/100
+S4 smooth025    nadir=49.586±0.119 RoCoF=2.888 Pp2p=0.0006 fosc~12.50 eBESS=0.501 eMPP=0.525 LC=0/100
+S4 noalpha      nadir=49.590±0.117 RoCoF=2.929 Pp2p=0.0006 fosc~12.50 eBESS=0.482 eMPP=0.527 LC=0/100
+S4 novic        nadir=49.559±0.127 RoCoF=2.966 Pp2p=0.0006 fosc~12.50 eBESS=0.522 eMPP=0.522 LC=0/100
+S4 smoothstatic nadir=49.691±0.087 RoCoF=2.813 Pp2p=0.0006 fosc~12.50 eBESS=0.530 eMPP=0.546 LC=0/100
+S4 static       nadir=48.936±0.033 RoCoF=3.127 Pp2p=0.1534 fosc~5.00 eBESS=0.646 eMPP=0.704 LC=100/100
+S4 static_m015  nadir=48.923±0.043 RoCoF=3.089 Pp2p=0.1028 fosc~5.00 eBESS=0.378 eMPP=0.437 LC=100/100
+S4 static_hyst  nadir=48.936±0.033 RoCoF=5.403 Pp2p=0.2305 fosc~1.50 eBESS=0.724 eMPP=0.768 LC=86/100
+S5 adaptive     nadir=49.588±0.120 RoCoF=0.876 Pp2p=0.0007 fosc~12.50 eBESS=0.497 eMPP=0.510 LC=0/100
+S5 smooth025    nadir=49.595±0.119 RoCoF=0.867 Pp2p=0.0007 fosc~12.50 eBESS=0.488 eMPP=0.512 LC=0/100
+S5 noalpha      nadir=49.613±0.113 RoCoF=0.871 Pp2p=0.0006 fosc~12.50 eBESS=0.472 eMPP=0.516 LC=0/100
+S5 novic        nadir=49.576±0.126 RoCoF=0.876 Pp2p=0.0007 fosc~12.50 eBESS=0.508 eMPP=0.508 LC=0/100
+S5 smoothstatic nadir=49.743±0.072 RoCoF=0.854 Pp2p=0.0006 fosc~12.50 eBESS=0.529 eMPP=0.544 LC=0/100
+S5 static       nadir=48.981±0.011 RoCoF=0.906 Pp2p=0.1602 fosc~4.50 eBESS=0.556 eMPP=0.610 LC=100/100
+S5 static_m015  nadir=48.976±0.014 RoCoF=0.899 Pp2p=0.1062 fosc~5.00 eBESS=0.329 eMPP=0.383 LC=100/100
+S5 static_hyst  nadir=48.981±0.011 RoCoF=1.603 Pp2p=0.2365 fosc~0.50 eBESS=0.653 eMPP=0.694 LC=0/100
+
+=== uji berpasangan (Wilcoxon signed-rank) terhadap skema usulan ===
+S3 smooth025    nadir_Hz      usulan=49.591 varian=49.598 selisih=+0.007 p=3.9e-18
+S3 smooth025    eBESS_pu_s    usulan=0.496 varian=0.488 selisih=-0.008 (-1.7%) p=3.9e-18
+S3 smooth025    eMPP_pu_s     usulan=0.509 varian=0.511 selisih=+0.002 (+0.3%) p=3.9e-18
+S3 smooth025    maxRoCoF_Hzps usulan=0.939 varian=0.929 selisih=-0.011 (-1.1%) p=3.9e-18
+S3 noalpha      nadir_Hz      usulan=49.591 varian=49.616 selisih=+0.025 p=3.9e-18
+S3 noalpha      eBESS_pu_s    usulan=0.496 varian=0.471 selisih=-0.025 (-5.1%) p=3.9e-18
+S3 noalpha      eMPP_pu_s     usulan=0.509 varian=0.514 selisih=+0.005 (+1.0%) p=3.9e-18
+S3 noalpha      maxRoCoF_Hzps usulan=0.939 varian=0.934 selisih=-0.005 (-0.6%) p=3.9e-18
+S3 novic        nadir_Hz      usulan=49.591 varian=49.579 selisih=-0.012 p=3.9e-18
+S3 novic        eBESS_pu_s    usulan=0.496 varian=0.507 selisih=+0.011 (+2.2%) p=3.9e-18
+S3 novic        eMPP_pu_s     usulan=0.509 varian=0.507 selisih=-0.002 (-0.5%) p=3.9e-18
+S3 novic        maxRoCoF_Hzps usulan=0.939 varian=0.939 selisih=+0.000 (+0.0%) p=3.9e-18
+S3 smoothstatic nadir_Hz      usulan=49.591 varian=49.745 selisih=+0.154 p=3.9e-18
+S3 smoothstatic eBESS_pu_s    usulan=0.496 varian=0.527 selisih=+0.031 (+6.2%) p=3.9e-18
+S3 smoothstatic eMPP_pu_s     usulan=0.509 varian=0.542 selisih=+0.033 (+6.5%) p=3.9e-18
+S3 smoothstatic maxRoCoF_Hzps usulan=0.939 varian=0.914 selisih=-0.025 (-2.7%) p=3.9e-18
+S4 smooth025    nadir_Hz      usulan=49.568 varian=49.586 selisih=+0.018 p=3.9e-18
+S4 smooth025    eBESS_pu_s    usulan=0.510 varian=0.501 selisih=-0.009 (-1.8%) p=3.9e-18
+S4 smooth025    eMPP_pu_s     usulan=0.524 varian=0.525 selisih=+0.001 (+0.2%) p=3.9e-18
+S4 smooth025    maxRoCoF_Hzps usulan=2.962 varian=2.888 selisih=-0.074 (-2.5%) p=3.9e-18
+S4 noalpha      nadir_Hz      usulan=49.568 varian=49.590 selisih=+0.022 p=3.9e-18
+S4 noalpha      eBESS_pu_s    usulan=0.510 varian=0.482 selisih=-0.028 (-5.4%) p=3.9e-18
+S4 noalpha      eMPP_pu_s     usulan=0.524 varian=0.527 selisih=+0.004 (+0.7%) p=3.9e-18
+S4 noalpha      maxRoCoF_Hzps usulan=2.962 varian=2.929 selisih=-0.033 (-1.1%) p=3.9e-18
+S4 novic        nadir_Hz      usulan=49.568 varian=49.559 selisih=-0.009 p=3.9e-18
+S4 novic        eBESS_pu_s    usulan=0.510 varian=0.522 selisih=+0.012 (+2.3%) p=3.9e-18
+S4 novic        eMPP_pu_s     usulan=0.524 varian=0.522 selisih=-0.002 (-0.3%) p=3.9e-18
+S4 novic        maxRoCoF_Hzps usulan=2.962 varian=2.966 selisih=+0.004 (+0.1%) p=3.9e-18
+S4 smoothstatic nadir_Hz      usulan=49.568 varian=49.691 selisih=+0.123 p=3.9e-18
+S4 smoothstatic eBESS_pu_s    usulan=0.510 varian=0.530 selisih=+0.020 (+4.0%) p=3.9e-18
+S4 smoothstatic eMPP_pu_s     usulan=0.524 varian=0.546 selisih=+0.022 (+4.2%) p=3.9e-18
+S4 smoothstatic maxRoCoF_Hzps usulan=2.962 varian=2.813 selisih=-0.149 (-5.0%) p=3.9e-18
+S5 smooth025    nadir_Hz      usulan=49.588 varian=49.595 selisih=+0.007 p=3.9e-18
+S5 smooth025    eBESS_pu_s    usulan=0.497 varian=0.488 selisih=-0.008 (-1.7%) p=3.9e-18
+S5 smooth025    eMPP_pu_s     usulan=0.510 varian=0.512 selisih=+0.002 (+0.3%) p=3.9e-18
+S5 smooth025    maxRoCoF_Hzps usulan=0.876 varian=0.867 selisih=-0.009 (-1.1%) p=3.9e-18
+S5 noalpha      nadir_Hz      usulan=49.588 varian=49.613 selisih=+0.025 p=3.9e-18
+S5 noalpha      eBESS_pu_s    usulan=0.497 varian=0.472 selisih=-0.025 (-5.0%) p=3.9e-18
+S5 noalpha      eMPP_pu_s     usulan=0.510 varian=0.516 selisih=+0.005 (+1.1%) p=3.9e-18
+S5 noalpha      maxRoCoF_Hzps usulan=0.876 varian=0.871 selisih=-0.005 (-0.5%) p=3.9e-18
+S5 novic        nadir_Hz      usulan=49.588 varian=49.576 selisih=-0.012 p=3.9e-18
+S5 novic        eBESS_pu_s    usulan=0.497 varian=0.508 selisih=+0.011 (+2.1%) p=3.9e-18
+S5 novic        eMPP_pu_s     usulan=0.510 varian=0.508 selisih=-0.002 (-0.5%) p=3.9e-18
+S5 novic        maxRoCoF_Hzps usulan=0.876 varian=0.876 selisih=+0.000 (+0.0%) p=3.9e-18
+S5 smoothstatic nadir_Hz      usulan=49.588 varian=49.743 selisih=+0.155 p=3.9e-18
+S5 smoothstatic eBESS_pu_s    usulan=0.497 varian=0.529 selisih=+0.032 (+6.5%) p=3.9e-18
+S5 smoothstatic eMPP_pu_s     usulan=0.510 varian=0.544 selisih=+0.034 (+6.7%) p=3.9e-18
+S5 smoothstatic maxRoCoF_Hzps usulan=0.876 varian=0.854 selisih=-0.022 (-2.6%) p=3.9e-18
+
+=== A5: sensitivitas relai statis & usulan terhadap tau_inv, tau_pll (S5 nominal) ===
+tau_inv=0.020 tau_pll=0.010 | relai Pp2p=0.177 f=10.50 LC=True | usulan Pp2p=0.0015 f=12.50 LC=False
+tau_inv=0.020 tau_pll=0.020 | relai Pp2p=0.206 f=7.50 LC=True | usulan Pp2p=0.0015 f=12.50 LC=False
+tau_inv=0.020 tau_pll=0.040 | relai Pp2p=0.226 f=5.00 LC=True | usulan Pp2p=0.0015 f=12.50 LC=False
+tau_inv=0.035 tau_pll=0.010 | relai Pp2p=0.150 f=8.00 LC=True | usulan Pp2p=0.0009 f=12.50 LC=False
+tau_inv=0.035 tau_pll=0.020 | relai Pp2p=0.183 f=5.50 LC=True | usulan Pp2p=0.0009 f=12.50 LC=False
+tau_inv=0.035 tau_pll=0.040 | relai Pp2p=0.210 f=4.00 LC=True | usulan Pp2p=0.0009 f=12.50 LC=False
+tau_inv=0.050 tau_pll=0.010 | relai Pp2p=0.133 f=6.50 LC=True | usulan Pp2p=0.0007 f=12.50 LC=False
+tau_inv=0.050 tau_pll=0.020 | relai Pp2p=0.167 f=4.50 LC=True | usulan Pp2p=0.0007 f=12.50 LC=False
+tau_inv=0.050 tau_pll=0.040 | relai Pp2p=0.197 f=3.50 LC=True | usulan Pp2p=0.0007 f=12.50 LC=False
+tau_inv=0.075 tau_pll=0.010 | relai Pp2p=0.114 f=5.50 LC=True | usulan Pp2p=0.0005 f=12.50 LC=False
+tau_inv=0.075 tau_pll=0.020 | relai Pp2p=0.147 f=4.00 LC=True | usulan Pp2p=0.0005 f=12.50 LC=False
+tau_inv=0.075 tau_pll=0.040 | relai Pp2p=0.180 f=2.50 LC=True | usulan Pp2p=0.0005 f=12.50 LC=False
+tau_inv=0.100 tau_pll=0.010 | relai Pp2p=0.101 f=4.50 LC=True | usulan Pp2p=0.0003 f=12.50 LC=False
+tau_inv=0.100 tau_pll=0.020 | relai Pp2p=0.133 f=3.50 LC=True | usulan Pp2p=0.0003 f=12.50 LC=False
+tau_inv=0.100 tau_pll=0.040 | relai Pp2p=0.166 f=2.50 LC=True | usulan Pp2p=0.0003 f=12.50 LC=False
+
+selesai 309 s
