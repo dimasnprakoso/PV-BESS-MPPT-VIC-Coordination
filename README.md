@@ -24,7 +24,7 @@ outputs follow the notation of the paper.
 | `python/fullmodel.py` | Averaged model (single-diode PV, P&O MPPT, battery SOC, inverter lag, PLL, VIC, aggregate swing equation), controllers `adaptive` (proposed), `adaptgain`, `smoothstatic`, `static` (relay), `droop`; campaign S1–S5 × 5 controllers × 100 realisations (seed 7) | Tables 3–4, Fig. 4 |
 | `python/stats_tests.py`, `python/make_tables.py` | Rank-sum tests and table rows from the campaign | Tables 3–4 |
 | `python/s3_decomposition.py` | Power decomposition of the nominal S3 event | Fig. 5 |
-| `python/df_prediction.py`, `python/circle_criterion.py` | Describing-function prediction of the relay limit cycle; circle-criterion absence certificate for the smooth gate | Sec. 4-3, 4-4 |
+| `python/df_prediction.py`, `python/circle_criterion.py` | Describing-function prediction of the relay limit cycle; circle-criterion absence certificate for the smooth gate | Sec. 4-3, 4-7 |
 | `python/ablasi_reviewer.py` | Ablation of the coordination law (smooth-0.25, no α, no VIC) | Table 7, Sec. 4-9 |
 | `python/adaptive_beta04.py`, `python/uji_s6_charging.py`, `python/uji_perturbasi_parameter.py` | Proposed scheme at β_max = 0.4, load-rejection test S6 (charging branch), parameter-perturbation check | Sec. 4-9, 4-11 |
 | `python/plot_pareto.py` | Pareto front and knee point | Fig. 3 |
@@ -33,12 +33,12 @@ outputs follow the notation of the paper.
 | `tuning/pareto_mc_tuning_fast.py` | Robust tuning: Monte Carlo sampling, CVaR (γ = 0.95), NSGA-II (60 × 80, N_MC = 200, seed 42) | Fig. 3 |
 | `tuning/pareto_front_prod.csv` | Production Pareto front (knee: index 27) | |
 | `revision_r1/simulation/model_r1.py` | Extension of the averaged model (imports `python/fullmodel.py`): OU load noise, event sequences, relay and Nordic FFR triggers, SOC taper, governor (1/R, T_g) | |
-| `revision_r1/simulation/uji_governor.py`, `gambar_peta_lc.py` | Existence of the limit cycle over primary-reserve gain and load step, condition hΣ < ΔP_L < hΣ + M | Fig. 7, Sec. 4-4 |
-| `revision_r1/simulation/uji_ffr.py` | Relay baselines with realistic trigger (49.7 Hz, latched FFR) | Table 6, Sec. 4-5 |
+| `revision_r1/simulation/uji_governor.py`, `gambar_peta_lc.py` | Existence of the limit cycle over primary-reserve gain and load step, condition hΣ < ΔP_L < hΣ + M | Fig. 7, Sec. 4-7 |
+| `revision_r1/simulation/uji_ffr.py` | Relay baselines with realistic trigger (49.7 Hz, latched FFR) | Table 6, Sec. 4-8 |
 | `revision_r1/simulation/uji_alpha.py` | Severity weight α under ambient noise, low inertia and repeated events | Table 7, Sec. 4-9 |
 | `revision_r1/simulation/uji_soc.py` | Battery state of charge near its limits | Sec. 4-10 |
 | `revision_r1/simulation/efek_tabel.py`, `statistik_r1.py` | Effect sizes: median difference, 95 % bootstrap CI, Cliff's δ | Table 5 |
-| `revision_r1/simulation/sapuan_H.py` | Inertia sweep, nominal S3 | Fig. 6, Sec. 4-8 |
+| `revision_r1/simulation/sapuan_H.py` | Inertia sweep, nominal S3 | Fig. 6, Sec. 4-6 |
 | `revision_r1/simulation/simulink/testbed/` | Switching-level testbed (Simulink, Specialized Power Systems, discrete 2 µs): `Testbed_R1.slx`, its build script `bangun_testbed.m`, controllers `ctrl_*.m`, run script `jalankan_testbed.m`, results `hasil_S5_mode{0..3}.mat`, analysis `analisis_testbed.py` | Table 8, Fig. 8, Sec. 4-12 |
 | `revision_r1/results/` | Raw results, logs and effect-size tables of the R1 tests | |
 | `revision_r1/figures/` | Figures as printed (PDF, SVG, PNG 600 dpi), `render_ulang.py` (Figs. 3–6), `buat_flowchart_iso.py` (Fig. 1), `fig1_arch.tex` (Fig. 2) | Figs. 1–8 |
