@@ -1,0 +1,104 @@
+R=0.05 S3 adaptive       nadir=49.657±0.105 Pp2p=0.0006 fosc~12.50Hz eBESS=1.449 LC=0/100  [30s]
+R=0.05 S3 smoothstatic   nadir=49.762±0.072 Pp2p=0.0006 fosc~12.50Hz eBESS=1.882 LC=0/100  [58s]
+R=0.05 S3 static         nadir=49.167±0.200 Pp2p=0.0006 fosc~12.50Hz eBESS=0.020 LC=0/100  [86s]
+R=0.05 S3 relay006_M015  nadir=49.664±0.023 Pp2p=0.0181 fosc~12.50Hz eBESS=0.438 LC=27/100  [116s]
+R=0.05 S3 relay006_M040  nadir=49.673±0.016 Pp2p=0.0256 fosc~12.50Hz eBESS=0.787 LC=28/100  [145s]
+R=0.05 S3 ffr5_M015      nadir=48.871±0.088 Pp2p=0.1438 fosc~0.10Hz eBESS=4.021 LC=0/100  [179s]
+R=0.05 S3 droop          nadir=49.084±0.293 Pp2p=0.0006 fosc~12.50Hz eBESS=0.000 LC=0/100  [203s]
+R=0.05 S4 adaptive       nadir=49.565±0.129 Pp2p=0.0006 fosc~12.50Hz eBESS=1.448 LC=0/100  [234s]
+R=0.05 S4 smoothstatic   nadir=49.683±0.094 Pp2p=0.0006 fosc~12.50Hz eBESS=1.881 LC=0/100  [262s]
+R=0.05 S4 static         nadir=48.984±0.107 Pp2p=0.0006 fosc~12.50Hz eBESS=0.053 LC=0/100  [292s]
+R=0.05 S4 relay006_M015  nadir=49.579±0.065 Pp2p=0.0214 fosc~12.50Hz eBESS=0.514 LC=29/100  [320s]
+R=0.05 S4 relay006_M040  nadir=49.606±0.045 Pp2p=0.0393 fosc~12.50Hz eBESS=1.086 LC=36/100  [347s]
+R=0.05 S4 ffr5_M015      nadir=48.441±0.079 Pp2p=0.1470 fosc~0.10Hz eBESS=4.042 LC=0/100  [380s]
+R=0.05 S4 droop          nadir=48.572±0.415 Pp2p=0.0006 fosc~12.50Hz eBESS=0.000 LC=0/100  [404s]
+R=0.20 S3 adaptive       nadir=49.613±0.119 Pp2p=0.0006 fosc~12.50Hz eBESS=2.546 LC=0/100  [434s]
+R=0.20 S3 smoothstatic   nadir=49.747±0.077 Pp2p=0.0006 fosc~12.50Hz eBESS=2.901 LC=0/100  [460s]
+R=0.20 S3 static         nadir=49.006±0.066 Pp2p=0.0191 fosc~12.50Hz eBESS=0.525 LC=25/100  [488s]
+R=0.20 S3 relay006_M015  nadir=49.662±0.024 Pp2p=0.1033 fosc~4.80Hz eBESS=2.513 LC=100/100  [515s]
+R=0.20 S3 relay006_M040  nadir=49.671±0.016 Pp2p=0.1555 fosc~4.50Hz eBESS=4.227 LC=100/100  [543s]
+R=0.20 S3 ffr5_M015      nadir=48.500±0.274 Pp2p=0.1413 fosc~0.10Hz eBESS=4.022 LC=0/100  [575s]
+R=0.20 S3 droop          nadir=48.466±0.474 Pp2p=0.0006 fosc~12.50Hz eBESS=0.000 LC=0/100  [598s]
+R=0.20 S4 adaptive       nadir=49.553±0.133 Pp2p=0.0006 fosc~12.50Hz eBESS=2.553 LC=0/100  [627s]
+R=0.20 S4 smoothstatic   nadir=49.679±0.095 Pp2p=0.0006 fosc~12.50Hz eBESS=2.904 LC=0/100  [654s]
+R=0.20 S4 static         nadir=48.937±0.039 Pp2p=0.0185 fosc~12.50Hz eBESS=0.596 LC=21/100  [682s]
+R=0.20 S4 relay006_M015  nadir=49.576±0.066 Pp2p=0.1020 fosc~5.00Hz eBESS=2.534 LC=100/100  [710s]
+R=0.20 S4 relay006_M040  nadir=49.604±0.046 Pp2p=0.1570 fosc~4.70Hz eBESS=4.346 LC=100/100  [737s]
+R=0.20 S4 ffr5_M015      nadir=47.983±0.155 Pp2p=0.1263 fosc~0.10Hz eBESS=4.042 LC=0/100  [770s]
+R=0.20 S4 droop          nadir=47.893±0.602 Pp2p=0.0006 fosc~12.50Hz eBESS=0.000 LC=0/100  [792s]
+
+=== usulan dibanding tiap baseline (usulan - baseline, berpasangan): median [CI95], Cliff d ===
+R=0.05 S3 smoothstatic   nadir_Hz   -0.1023 [-0.1165,-0.0915] d=-0.55
+R=0.05 S3 smoothstatic   Pp2p_pu    -0.0000 [-0.0000,-0.0000] d=-0.02
+R=0.05 S3 smoothstatic   eBESS_pu_s -0.4308 [-0.4766,-0.3916] d=-0.44
+R=0.05 S3 static         nadir_Hz   +0.5268 [+0.4910,+0.5416] d=+0.97
+R=0.05 S3 static         Pp2p_pu    -0.0000 [-0.0000,-0.0000] d=-0.14
+R=0.05 S3 static         eBESS_pu_s +1.4465 [+1.3206,+1.5817] d=+1.00
+R=0.05 S3 relay006_M015  nadir_Hz   -0.0063 [-0.0391,+0.0207] d=-0.04
+R=0.05 S3 relay006_M015  Pp2p_pu    -0.0000 [-0.0000,-0.0000] d=-0.30
+R=0.05 S3 relay006_M015  eBESS_pu_s +1.0396 [+0.9588,+1.1072] d=+0.87
+R=0.05 S3 relay006_M040  nadir_Hz   -0.0146 [-0.0503,+0.0145] d=-0.09
+R=0.05 S3 relay006_M040  Pp2p_pu    -0.0000 [-0.0000,-0.0000] d=-0.32
+R=0.05 S3 relay006_M040  eBESS_pu_s +0.8434 [+0.8012,+0.8960] d=+0.57
+R=0.05 S3 ffr5_M015      nadir_Hz   +0.7939 [+0.7396,+0.8409] d=+1.00
+R=0.05 S3 ffr5_M015      Pp2p_pu    -0.1438 [-0.1446,-0.1429] d=-1.00
+R=0.05 S3 ffr5_M015      eBESS_pu_s -2.5741 [-2.7089,-2.4372] d=-1.00
+R=0.05 S3 droop          nadir_Hz   +0.5744 [+0.4964,+0.6305] d=+0.98
+R=0.05 S3 droop          Pp2p_pu    -0.0000 [-0.0000,-0.0000] d=-0.15
+R=0.05 S3 droop          eBESS_pu_s +1.4465 [+1.3206,+1.5946] d=+1.00
+R=0.05 S4 smoothstatic   nadir_Hz   -0.1131 [-0.1290,-0.1025] d=-0.50
+R=0.05 S4 smoothstatic   Pp2p_pu    -0.0000 [-0.0000,-0.0000] d=-0.04
+R=0.05 S4 smoothstatic   eBESS_pu_s -0.4233 [-0.4784,-0.3826] d=-0.45
+R=0.05 S4 static         nadir_Hz   +0.5760 [+0.5557,+0.6083] d=+1.00
+R=0.05 S4 static         Pp2p_pu    +0.0000 [+0.0000,+0.0000] d=+0.02
+R=0.05 S4 static         eBESS_pu_s +1.3779 [+1.2672,+1.5512] d=+1.00
+R=0.05 S4 relay006_M015  nadir_Hz   -0.0143 [-0.0447,+0.0086] d=-0.03
+R=0.05 S4 relay006_M015  Pp2p_pu    +0.0000 [+0.0000,+0.0000] d=-0.25
+R=0.05 S4 relay006_M015  eBESS_pu_s +1.0078 [+0.9290,+1.0452] d=+0.81
+R=0.05 S4 relay006_M040  nadir_Hz   -0.0367 [-0.0758,-0.0067] d=-0.16
+R=0.05 S4 relay006_M040  Pp2p_pu    +0.0000 [-0.0000,+0.0000] d=-0.28
+R=0.05 S4 relay006_M040  eBESS_pu_s +0.7187 [+0.6675,+0.7949] d=+0.38
+R=0.05 S4 ffr5_M015      nadir_Hz   +1.1279 [+1.0473,+1.1826] d=+1.00
+R=0.05 S4 ffr5_M015      Pp2p_pu    -0.1464 [-0.1466,-0.1462] d=-1.00
+R=0.05 S4 ffr5_M015      eBESS_pu_s -2.6187 [-2.7480,-2.4414] d=-1.00
+R=0.05 S4 droop          nadir_Hz   +0.9778 [+0.8748,+1.0950] d=+1.00
+R=0.05 S4 droop          Pp2p_pu    +0.0000 [+0.0000,+0.0000] d=+0.04
+R=0.05 S4 droop          eBESS_pu_s +1.4257 [+1.2934,+1.6022] d=+1.00
+R=0.20 S3 smoothstatic   nadir_Hz   -0.1304 [-0.1489,-0.1171] d=-0.61
+R=0.20 S3 smoothstatic   Pp2p_pu    -0.0000 [-0.0000,-0.0000] d=-0.08
+R=0.20 S3 smoothstatic   eBESS_pu_s -0.3495 [-0.3901,-0.3125] d=-0.25
+R=0.20 S3 static         nadir_Hz   +0.6058 [+0.5849,+0.6425] d=+1.00
+R=0.20 S3 static         Pp2p_pu    -0.0000 [-0.0000,-0.0000] d=-0.28
+R=0.20 S3 static         eBESS_pu_s +2.0602 [+1.9508,+2.1605] d=+0.93
+R=0.20 S3 relay006_M015  nadir_Hz   -0.0495 [-0.0804,-0.0159] d=-0.23
+R=0.20 S3 relay006_M015  Pp2p_pu    -0.1068 [-0.1097,-0.1044] d=-1.00
+R=0.20 S3 relay006_M015  eBESS_pu_s +0.0460 [-0.0905,+0.1575] d=+0.01
+R=0.20 S3 relay006_M040  nadir_Hz   -0.0564 [-0.0935,-0.0230] d=-0.27
+R=0.20 S3 relay006_M040  Pp2p_pu    -0.1559 [-0.1647,-0.1506] d=-1.00
+R=0.20 S3 relay006_M040  eBESS_pu_s -1.6616 [-2.0331,-1.2505] d=-0.51
+R=0.20 S3 ffr5_M015      nadir_Hz   +1.1243 [+1.0533,+1.1828] d=+1.00
+R=0.20 S3 ffr5_M015      Pp2p_pu    -0.1418 [-0.1427,-0.1406] d=-1.00
+R=0.20 S3 ffr5_M015      eBESS_pu_s -1.4777 [-1.6986,-1.2277] d=-1.00
+R=0.20 S3 droop          nadir_Hz   +1.1671 [+1.0068,+1.2678] d=+1.00
+R=0.20 S3 droop          Pp2p_pu    -0.0000 [-0.0000,-0.0000] d=-0.11
+R=0.20 S3 droop          eBESS_pu_s +2.5433 [+2.3274,+2.8041] d=+1.00
+R=0.20 S4 smoothstatic   nadir_Hz   -0.1234 [-0.1381,-0.1090] d=-0.52
+R=0.20 S4 smoothstatic   Pp2p_pu    -0.0000 [-0.0000,-0.0000] d=-0.08
+R=0.20 S4 smoothstatic   eBESS_pu_s -0.3386 [-0.3891,-0.3028] d=-0.25
+R=0.20 S4 static         nadir_Hz   +0.6244 [+0.5790,+0.6516] d=+1.00
+R=0.20 S4 static         Pp2p_pu    +0.0000 [+0.0000,+0.0000] d=-0.11
+R=0.20 S4 static         eBESS_pu_s +1.9937 [+1.9046,+2.0657] d=+0.92
+R=0.20 S4 relay006_M015  nadir_Hz   -0.0259 [-0.0550,+0.0003] d=-0.08
+R=0.20 S4 relay006_M015  Pp2p_pu    -0.1052 [-0.1069,-0.1030] d=-1.00
+R=0.20 S4 relay006_M015  eBESS_pu_s +0.0331 [-0.0924,+0.1356] d=+0.01
+R=0.20 S4 relay006_M040  nadir_Hz   -0.0473 [-0.0920,-0.0154] d=-0.21
+R=0.20 S4 relay006_M040  Pp2p_pu    -0.1585 [-0.1661,-0.1508] d=-1.00
+R=0.20 S4 relay006_M040  eBESS_pu_s -1.7070 [-2.0865,-1.4554] d=-0.64
+R=0.20 S4 ffr5_M015      nadir_Hz   +1.5008 [+1.4009,+1.6012] d=+1.00
+R=0.20 S4 ffr5_M015      Pp2p_pu    -0.1258 [-0.1263,-0.1250] d=-1.00
+R=0.20 S4 ffr5_M015      eBESS_pu_s -1.5270 [-1.7561,-1.2197] d=-1.00
+R=0.20 S4 droop          nadir_Hz   +1.6237 [+1.4805,+1.8259] d=+1.00
+R=0.20 S4 droop          Pp2p_pu    +0.0000 [+0.0000,+0.0000] d=+0.10
+R=0.20 S4 droop          eBESS_pu_s +2.5174 [+2.2854,+2.8240] d=+1.00
+
+selesai 794 s

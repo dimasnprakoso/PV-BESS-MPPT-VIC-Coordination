@@ -35,6 +35,7 @@ outputs follow the notation of the paper.
 | `revision_r1/simulation/model_r1.py` | Extension of the averaged model (imports `python/fullmodel.py`): OU load noise, event sequences, relay and Nordic FFR triggers, SOC taper, governor (1/R, T_g) | |
 | `revision_r1/simulation/uji_governor.py`, `gambar_peta_lc.py` | Existence of the limit cycle over primary-reserve gain and load step, condition hΣ < ΔP_L < hΣ + M | Fig. 7, Sec. 4-7 |
 | `revision_r1/simulation/uji_ffr.py` | Relay baselines with realistic trigger (49.7 Hz, latched FFR) | Table 6, Sec. 4-8 |
+| `revision_r1/simulation/uji_fcr.py` | Scenarios S3–S4 repeated with primary reserve (aggregate first-order governor, 5 % and 20 % droop, common random numbers) | Sec. 4-8 |
 | `revision_r1/simulation/uji_alpha.py` | Severity weight α under ambient noise, low inertia and repeated events | Table 7, Sec. 4-9 |
 | `revision_r1/simulation/uji_soc.py` | Battery state of charge near its limits | Sec. 4-10 |
 | `revision_r1/simulation/efek_tabel.py`, `statistik_r1.py` | Effect sizes: median difference, 95 % bootstrap CI, Cliff's δ | Table 5 |
@@ -83,6 +84,7 @@ python uji_ffr.py
 python uji_alpha.py
 python uji_soc.py
 python uji_governor.py
+python uji_fcr.py
 python gambar_peta_lc.py
 python sapuan_H.py
 python ../figures/render_ulang.py
