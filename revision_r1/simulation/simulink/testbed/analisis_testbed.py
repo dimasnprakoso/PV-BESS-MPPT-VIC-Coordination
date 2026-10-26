@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 """
-Metrik dan figur run testbed switching (komentar R2-3). Membaca hasil_S5_mode{0,1,2,3}.mat.
-Metrik sama dengan model rerata: nadir, |RoCoF| maks (turunan f_grid, filter 20 ms),
-P_p2p dan f_osc pada jendela tunak 2 s terakhir, throughput BESS sejak event (pu*s pada S_g),
-deteksi siklus batas: P_p2p > 0,01 pu, f_osc > 2/T_w, bukan riak P&O.
-Sebelum P_p2p dan f_osc, P disaring lolos-rendah Butterworth orde-2 25 Hz (filtfilt, tanpa geser fasa):
-model switching memuat riak harmonik/switching (~100-150 Hz) yang tidak ada di model rerata dan
-bukan siklus batas; pita 0-25 Hz memuat seluruh dinamika elektromekanik dan kendali yang relevan.
-P_p2p tanpa saring juga dilaporkan.
+Metrics and figure of the switching-level testbed runs (revision R1, Reviewer 2 comment 3).
+Reads hasil_S5_mode{0,1,2,3}.mat. Metrics as in the averaged model: nadir, max |RoCoF| (derivative of
+f_grid, 20-ms filter), P_p2p and f_osc in the last 2-s steady-state window, battery throughput since the
+event (pu*s on S_g), limit-cycle detection: P_p2p > 0.01 pu, f_osc > 2/T_w, not the P&O ripple.
+Before P_p2p and f_osc, P is low-pass filtered (2nd-order Butterworth, 25 Hz, filtfilt, zero phase):
+the switching model contains harmonic/switching ripple (~100-150 Hz) that is absent from the averaged
+model and is not a limit cycle; the 0-25 Hz band holds all relevant electromechanical and control
+dynamics. The unfiltered P_p2p is reported as well.
 """
 from scipy.signal import butter, filtfilt
 import os

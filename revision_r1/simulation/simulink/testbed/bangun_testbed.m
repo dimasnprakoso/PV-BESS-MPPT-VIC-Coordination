@@ -1,5 +1,5 @@
-%% bangun_testbed.m -- testbed tingkat-switching BARU untuk revisi R1 (komentar R2-3)
-% Menggantikan matlab/PVonGrid_patched.slx yang cacat neraca daya (see README).
+%% bangun_testbed.m -- NEW switching-level testbed for revision R1 (Reviewer 2 comment 3).
+% Replaces matlab/PVonGrid_patched.slx, whose DC-side power balance was not conserved (see README).
 %
 % Rangkaian daya (Specialized Power Systems, diskret 2 us):
 %   PV array (modul 350 W parameter model lama, 7 seri x 40 paralel = 98 kW STC) + C_pv 2 mF

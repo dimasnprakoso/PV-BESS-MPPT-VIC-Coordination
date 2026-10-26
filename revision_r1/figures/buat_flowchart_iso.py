@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Gambar 2 (komentar R1-5): flowchart metodologi bergaya standar teknik (simbol ISO 5807 / ANSI),
-hitam-putih, sebagai bentuk PowerPoint ASLI yang dapat disunting, lalu diekspor ke PNG 600 dpi dan PDF.
-Simbol: terminator (mulai/selesai), jajaran genjang (data masukan), persegi panjang (proses),
-belah ketupat (keputusan Yes/No), lingkaran (konektor A/B). Tata letak dua kolom agar muat satu halaman.
-Menggantikan buat_flowchart.py (versi kotak-bulat berwarna). Keluaran: flowchart.pptx/.png/.pdf
+Figure 1 (revision R1, Reviewer 1 comment 5): research-methodology flowchart in engineering style
+(ISO 5807 / ANSI symbols), black and white, built from NATIVE editable PowerPoint shapes and then
+exported to 600-dpi PNG and PDF.
+Symbols: terminator (start/end), parallelogram (input data), rectangle (process),
+diamond (Yes/No decision), circle (connector A/B). Two-column layout to fit one page.
+Outputs: flowchart.pptx/.png/.pdf. The export step uses PowerPoint COM (Windows) and closes
+PowerPoint when it finishes; save other open presentations first.
 """
 import os
 import re

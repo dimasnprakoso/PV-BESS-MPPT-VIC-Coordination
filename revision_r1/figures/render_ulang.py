@@ -1,12 +1,12 @@
 # -*- coding: utf-8 -*-
 """
-Komentar R1-6: render ulang gambar hasil model rerata dari data/skrip ASLI pada ukuran cetak
-(lebar 160 mm), teks >= 9 pt pada ukuran cetak, keluaran PDF + SVG (vektor, dapat disunting) dan
-PNG 600 dpi. Tidak ada pembesaran gambar raster dan tidak ada alat AI.
-  gbr3_pareto     <- salinan python/plot_pareto.py (FIG dialihkan, ukuran disesuaikan)
-  gbr4_lc_S5      <- python/results/traj_S5_{static,adaptive}.csv (keluaran fullmodel.py)
-  gbr6_dekomposisi<- salinan python/s3_decomposition.py
-  gbr7_sensitivitas <- results/sapuan_H.csv (simulation/sapuan_H.py, model fullmodel.py)
+Revision R1, Reviewer 1 comment 6: re-render the averaged-model result figures from the ORIGINAL
+data and scripts at print size (160 mm width), text >= 9 pt at print size, as PDF + SVG (vector,
+editable) and 600-dpi PNG. No raster upscaling and no AI tools.
+  gbr3_pareto       <- copy of python/plot_pareto.py (output redirected, size adjusted)    [Figure 3]
+  gbr4_lc_S5        <- python/results/traj_S5_{static,adaptive}.csv (output of fullmodel.py) [Figure 4]
+  gbr6_dekomposisi  <- copy of python/s3_decomposition.py                                 [Figure 5]
+  gbr7_sensitivitas <- sapuan_H.csv in the results folder (sapuan_H.py, model fullmodel.py)  [Figure 6]
 """
 import os
 import re

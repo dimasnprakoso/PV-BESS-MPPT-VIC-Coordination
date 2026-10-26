@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Angka di balik Gambar 5 naskah (sapuan H_sys, S3 nominal) untuk interpretasi R1-7."""
+"""Numbers behind Figure 6 of the manuscript (H_sys sweep, nominal S3), used in Section 4.6."""
 import numpy as np, model_r1 as M, fullmodel as fm, csv, os
 Hs = np.linspace(0.5, 4.0, 8)
 xi = fm.xi_nominal(Hs.size); xi["H"] = Hs.copy()

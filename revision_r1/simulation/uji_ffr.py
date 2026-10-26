@@ -1,20 +1,20 @@
 # -*- coding: utf-8 -*-
 """
-Komentar R2-1: baseline relai dinilai tidak realistis (ambang 0,02 pu = 1 Hz, kuantum 0,4 pu).
+Revision R1, Reviewer 2 comment 1: relay baselines with a realistic trigger (the nominal relay uses a
+0.02-pu = 1-Hz threshold and a 0.4-pu quantum).
 
-Baseline diganti dengan pemicu realistis menurut spesifikasi FFR Nordik
-(Svenska kraftnaet / Fingrid / Statnett / Energinet, "Technical requirements for FFR"):
-ambang 49,7 Hz (h = 0,006 pu), aktif penuh <= 1,3 s, durasi dukungan 5 s (pendek)
-atau 30 s (panjang), deaktivasi <= 20 %/s, boleh aktif ulang segera.
-Varian:
-  adaptive        : skema usulan (acuan)
-  static          : relai naskah (h 0,02 pu, M 0,4 pu)
-  relay006_M015   : relai tanpa memori, ambang 49,7 Hz, M 0,15 pu
-  relay006_M040   : idem, M 0,4 pu
-  ffr5_M010/M015/M040 : FFR Nordik dukungan pendek 5 s
-  ffr30_M015      : FFR Nordik dukungan panjang 30 s
-Durasi 40 s (event di 2 s), jendela tunak 10 s terakhir (resolusi 0,1 Hz,
-ambang deteksi f_osc > 2/T_w = 0,2 Hz) agar perburuan lambat FFR ikut tertangkap.
+Trigger according to the Nordic FFR specification (Svenska kraftnaet / Fingrid / Statnett / Energinet,
+"Technical requirements for FFR"): threshold 49.7 Hz (h = 0.006 pu), full activation <= 1.3 s, support
+duration 5 s (short) or 30 s (long), deactivation <= 20 %/s, immediate re-activation allowed.
+Variants:
+  adaptive            : proposed scheme (reference)
+  static              : nominal relay (h 0.02 pu, M 0.4 pu)
+  relay006_M015       : memoryless relay, 49.7-Hz threshold, M 0.15 pu
+  relay006_M040       : same, M 0.4 pu
+  ffr5_M010/M015/M040 : Nordic FFR, short support (5 s)
+  ffr30_M015          : Nordic FFR, long support (30 s)
+40-s horizon (event at 2 s), steady-state window = last 10 s (0.1-Hz resolution, detection threshold
+f_osc > 2/T_w = 0.2 Hz) so that slow FFR hunting is also captured.
 """
 import csv
 import os

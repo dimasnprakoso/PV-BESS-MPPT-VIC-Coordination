@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Komentar R2-2: apa yang ditambahkan adaptivitas (bobot alpha)?
+Revision R1, Reviewer 2 comment 2: what does adaptivity (the severity weight alpha) add?
 
-Ablasi Okt 2026 (python/ablasi_reviewer.py) hanya menguji satu event tangga S3-S5,
-dan di sana alpha tidak memberi manfaat. Di sini alpha diuji pada kondisi yang
-memang menjadi alasan keberadaannya, yaitu meredam VIC saat deviasi kecil:
-  T1 ambient       : fluktuasi beban OU saja (sigma 0,01 pu, tau 1 s), H 1,5-4 s, 40 s
-  T2 ambient-lowH  : sama, inersia rendah H 0,5-1 s
-  T3 ambient+event : derau + tangga beban di t = 20 s, 30 s
-  T4 berulang      : derau + tiga event nyala/padam (2-8, 14-20, 26-32 s), 36 s
-Varian: adaptive (usulan), noalpha (w = 1), smooth025, smoothstatic, static.
-Common random numbers: undian xi (benih 31) dan derau (benih 7) sama untuk semua varian.
+The ablation in python/ablasi_reviewer.py tests a single load step on S3-S5, where alpha gives no
+benefit. Here alpha is tested in the conditions it is meant for, i.e. damping the VIC response to
+small deviations:
+  T1 ambient       : OU load fluctuations only (sigma 0.01 pu, tau 1 s), H 1.5-4 s, 40 s
+  T2 ambient-lowH  : as T1 with low inertia, H 0.5-1 s
+  T3 ambient+event : noise + load step at t = 20 s, 30-s run
+  T4 repeated      : noise + three on/off events (2-8, 14-20, 26-32 s), 36 s
+Variants: adaptive (proposed), noalpha (w = 1), smooth025, smoothstatic, static.
+Common random numbers: the xi draws (seed 31) and the noise (seed 7) are the same for all variants.
 """
 import csv
 import os

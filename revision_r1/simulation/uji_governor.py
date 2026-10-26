@@ -1,14 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Temuan saat menjawab R2-1 (20 Okt 2026): model naskah tidak memiliki governor/FCR,
-sehingga BESS menjadi satu-satunya pengatur tunak. Dengan FCR droop 5 % siklus batas
-relai hilang. Uji ini memetakan kapan siklus batas muncul dan menguji kriteria analitis
+Existence map of the relay limit cycle with primary reserve (revision R1, Reviewer 2 comment 1).
+The main evaluation has no governor/FCR, so the battery is the only steady-state regulator; with a
+5 % FCR droop the cycle of the nominal relay disappears. This test maps where the cycle occurs and
+checks the analytical criterion
 
-    |Dw_ss| = DPL / (D + Kd + 1/R)  >  h      (D = 1, Kd = 0,5 VIC gain tetap)
+    |Dw_ss| = DPL / (D + Kd + 1/R)  >  h      (D = 1, Kd = 0.5, fixed-gain VIC)
 
-artinya: siklus batas ada bila deviasi tunak SETELAH respons primer masih di luar dead-band.
-Peta: droop R x DPL, H tetap 2 s, untuk relai naskah (h 0,02) dan relai FFR 49,7 Hz
-(h 0,006, M 0,15), serta skema usulan. Governor orde-1 T_g = 5 s.
+i.e. the cycle exists when the steady-state deviation AFTER the primary response is still outside the
+dead-band (condition (6) of the manuscript adds the upper bound h*Sigma + M).
+Map: droop R x DPL, H fixed at 2 s, for the nominal relay (h 0.02) and the 49.7-Hz FFR relay
+(h 0.006, M 0.15), and for the proposed scheme. First-order governor, T_g = 5 s.
 """
 import csv
 import os

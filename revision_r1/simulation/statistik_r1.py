@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-"""Ukuran efek untuk revisi R1 (komentar R2-6): selisih median + CI bootstrap, Cliff's delta."""
+"""Effect sizes for revision R1 (Reviewer 2 comment 6): median difference + bootstrap CI, Cliff's delta."""
 import numpy as np
 from scipy.stats import wilcoxon
 

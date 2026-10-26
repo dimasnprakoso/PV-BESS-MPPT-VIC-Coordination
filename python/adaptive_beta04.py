@@ -1,8 +1,9 @@
 # -*- coding: utf-8 -*-
 """
-Amunisi respons reviewer: kontroler ADAPTIF dgn beta_max = 0.4 (apple-to-apple
-vs rating smooth-static 0.4), S2-S5 x 100 realisasi. Bandingkan nadir/eBESS
-terhadap smooth-static dan adaptif-0.25 dari kampanye (metrics_raw.csv).
+Proposed (adaptive) controller with beta_max = 0.4, i.e. at the same rating as the smooth-static
+baseline (revision R1, Reviewer 2 comment 2). S2-S5 x 100 realisations; nadir and battery
+throughput are compared with smooth-static and with the adaptive controller at 0.25 from the
+evaluation (metrics_raw.csv).
 """
 import csv
 import os

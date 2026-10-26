@@ -1,10 +1,10 @@
 # -*- coding: utf-8 -*-
 """
-Komentar R2-6: ganti penekanan p-value dengan ukuran efek.
-Sumber: python/results/metrics_raw.csv (kampanye naskah, 100 realisasi per sel; tiap
-kontroler mengundi realisasinya sendiri -> perbandingan TIDAK berpasangan).
-Keluaran: results/efek_tabel3_4.csv -- usulan dikurangi baseline: selisih median,
-CI bootstrap persentil 95 % (10 000 ulangan), Cliff's delta, p Mann-Whitney.
+Revision R1, Reviewer 2 comment 6: report effect sizes instead of p-values.
+Source: python/results/metrics_raw.csv (manuscript evaluation, 100 realisations per cell; each
+controller draws its own realisations -> UNPAIRED comparison).
+Output: efek_tabel3_4.csv in the results folder -- proposed minus baseline: median difference,
+95 % percentile bootstrap CI (10 000 resamples), Cliff's delta, Mann-Whitney p.
 """
 import csv
 import os

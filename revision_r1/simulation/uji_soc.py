@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
 """
-Komentar R2-5: gerbang sadar-SOC tidak pernah teruji (Phi_SOC = 1 sepanjang kampanye).
+Revision R1, Reviewer 2 comment 5: the SOC-aware gate was never exercised (Phi_SOC = 1 throughout
+the evaluation).
 
-U1 dekat batas bawah : SOC0 ~ U(0,20; 0,25) (di dalam pita taper), event turun-frekuensi S3, 20 s
-U2 dekat batas atas  : SOC0 ~ U(0,85; 0,90), event NAIK-frekuensi (pelepasan beban, DPL < 0), 20 s
-U3 pengurasan        : SOC0 = 0,205, event turun-frekuensi bertahan 120 s, H dan DPL acak
-Varian:
-  adaptive          : gerbang usulan dengan taper linear 5 %
-  adaptive_hardcut  : gerbang usulan, taper diganti potong keras (lebar 1e-6)
-  static            : relai naskah (taper sama)
-Metrik tambahan: SOC minimum/maksimum, Phi minimum, P_p2p dan deteksi siklus batas di
-jendela 2 s terakhir.
+U1 near the lower limit : SOC0 ~ U(0.20, 0.25) (inside the taper band), under-frequency event S3, 20 s
+U2 near the upper limit : SOC0 ~ U(0.85, 0.90), OVER-frequency event (load rejection, DPL < 0), 20 s
+U3 depletion            : SOC0 = 0.205, under-frequency event held for 120 s, random H and DPL
+Variants:
+  adaptive          : proposed gate with a 5 % linear taper
+  adaptive_hardcut  : proposed gate with the taper replaced by a hard cut-off (width 1e-6)
+  static            : nominal relay (same taper)
+Additional metrics: minimum/maximum SOC, minimum Phi, P_p2p and limit-cycle detection in the last 2 s.
 """
 import csv
 import os

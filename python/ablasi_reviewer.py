@@ -1,23 +1,22 @@
 # -*- coding: utf-8 -*-
 """
-Uji tambahan untuk kritik reviewer (Okt 2026), di atas model rerata fullmodel.py.
+Ablation of the coordination law (revision R1, Reviewer 2 comment 2), on the averaged model fullmodel.py.
 
-A1 Ablasi: dari mana keunggulan skema usulan?
-   - adaptive        : skema usulan (knee), acuan
-   - smooth025       : VIC gain tetap + droop tanh NON-adaptif dengan rating 0,25 pu
-                       (= beta_max usulan) -> menguji apakah penghematan BESS hanya
-                       akibat batas yang lebih rendah
-   - noalpha         : gerbang usulan + VIC knee dengan bobot tetap w = 1 (tanpa alpha)
-   - novic           : gerbang usulan saja, tanpa suku VIC (w = 0)
-   - smoothstatic    : baseline kampanye (rating 0,4 pu), pembanding
-   Relai yang lebih "adil" (apakah limit cycle tetap muncul?):
-   - static_m015     : relai statis dengan kuantum 0,15 pu (mendekati defisit)
-   - static_hyst     : relai statis 0,4 pu dengan HISTERESIS sungguhan
-                       (nyala di Dw < -0,02, padam bila Dw > -0,01)
-A5 Sensitivitas f_osc dan P_p2p relai terhadap tau_inv dan tau_pll (S5 nominal).
+A1 Which element of the law produces the benefit?
+   - adaptive     : proposed scheme (knee gains), reference
+   - smooth025    : fixed-gain VIC + NON-adaptive tanh droop rated 0.25 pu (= proposed beta_max);
+                    tests whether the battery saving comes only from the lower cap
+   - noalpha      : proposed gate + knee VIC with a fixed weight w = 1 (no alpha)
+   - novic        : proposed gate only, without the VIC term (w = 0)
+   - smoothstatic : evaluation baseline (rating 0.4 pu), for comparison
+   Relay variants (does the limit cycle persist?):
+   - static_m015  : static relay with a 0.15-pu quantum (close to the deficit)
+   - static_hyst  : static 0.4-pu relay with genuine hysteresis
+                    (on at Dw < -0.02, off when Dw > -0.01)
+A5 Sensitivity of the relay f_osc and P_p2p to tau_inv and tau_pll (nominal S5).
 
-Semua kontroler dalam satu skenario memakai undian xi yang SAMA (common random
-numbers, benih 11), sehingga uji Wilcoxon berpasangan (signed-rank) sah.
+All controllers in a scenario use the SAME xi draws (common random numbers, seed 11),
+so the paired Wilcoxon signed-rank test is valid.
 """
 import csv
 import os

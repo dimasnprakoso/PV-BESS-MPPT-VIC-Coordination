@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
-Gambar 2 (sistem studi) sebagai bentuk PowerPoint ASLI yang dapat disunting (komentar R1-6:
+Figure 2 (study system) as NATIVE editable PowerPoint shapes (revision R1, Reviewer 1 comment 6:
 "Figure 1 is a block diagram and should be supplied in an editable format").
-Tata letak menyalin gbr1_sistem (sumber TikZ fig1_arch.tex); koordinat dalam mm pada kanvas 200 x 101 mm.
-Tidak memakai PowerPoint COM (tidak menyentuh PowerPoint yang sedang dibuka pengguna).
-Keluaran: gbr2_sistem.pptx + gbr2_sistem_pratinjau.png (pratinjau matplotlib dari daftar elemen yang sama).
-Teks: X_{sub} = subskrip, *...* = miring.
+The layout follows gbr1_sistem (TikZ source fig1_arch.tex); coordinates in mm on a 200 x 101 mm canvas.
+Does not use PowerPoint COM.
+Outputs: gbr2_sistem.pptx + gbr2_sistem_pratinjau.png (matplotlib preview drawn from the same element list).
+Text markup: X_{sub} = subscript, *...* = italic.
 """
 import os
 import re

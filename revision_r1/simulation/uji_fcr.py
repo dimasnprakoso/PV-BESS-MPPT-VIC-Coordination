@@ -1,16 +1,15 @@
 # -*- coding: utf-8 -*-
 """
-Penguat R2-1: kampanye skenario DENGAN cadangan primer (FCR/governor orde-1).
+Revision R1, Reviewer 2 comment 1: scenario evaluation WITH primary reserve (first-order governor/FCR).
 
-Kampanye naskah tidak memiliki governor, sehingga baterai menjadi satu-satunya pengatur
-tunak. Di sini setiap realisasi S3/S4 diulang dengan governor agregat orde-1
-(T_g = 5 s) pada dua tingkat cadangan:
-  R = 0,05  -> cadangan normal (droop 5 %)
-  R = 0,20  -> cadangan lemah
-Kontroler: usulan, smooth-static, relai naskah (1 Hz, M 0,4), relai 49,7 Hz (M 0,15 dan 0,4),
-FFR Nordik berlatch 5 s (M 0,15; kini wajar karena ada FCR yang mengambil alih), droop.
-Semua kontroler dan kedua tingkat R memakai realisasi yang SAMA (common random numbers),
-sehingga perbandingan berpasangan. Durasi 40 s, jendela tunak 10 s terakhir.
+The main evaluation has no governor, so the battery is the only steady-state regulator. Here every
+S3/S4 realisation is repeated with an aggregate first-order governor (T_g = 5 s) at two reserve levels:
+  R = 0.05 -> normal reserve (5 % droop)
+  R = 0.20 -> weak reserve
+Controllers: proposed, smooth-static, nominal relay (1 Hz, M 0.4), 49.7-Hz relays (M 0.15 and 0.4),
+latched Nordic FFR 5 s (M 0.15; now a fair case because FCR takes over), droop.
+All controllers and both R levels use the SAME realisations (common random numbers), so the
+comparison is paired. 40-s horizon, steady-state window = last 10 s.
 """
 import csv
 import os
