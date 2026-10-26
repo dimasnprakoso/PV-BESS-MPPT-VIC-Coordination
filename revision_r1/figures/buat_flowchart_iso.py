@@ -121,7 +121,7 @@ YB, BW, BH = 57, 38, 20
 OFS = 8                           # kotak cabang bergeser keluar dari sudut
 XBL, XBR = VL - OFS, VR + OFS      # pusat kotak cabang kiri/kanan
 bentuk(MSO_SHAPE.FLOWCHART_PROCESS, XBL - BW / 2, YB, BW, BH,
-       "Describing function and\nexistence condition hΣ < ΔP_{L}\n< hΣ + M, checked against\ndetected cycles (Figure 7)", size=7.3)
+       "Describing function and\nexistence condition (6),\nchecked against detected\ncycles (Figure 7)", size=7.3)
 bentuk(MSO_SHAPE.FLOWCHART_PROCESS, XBR - BW / 2, YB, BW, BH,
        "Circle criterion: absence\ncertificate for smooth,\nsector-bounded dispatch,\nchecked against test", size=7.3)
 garis([(VL, VY), (XBL, VY), (XBL, YB)]); label(XBL - 1, VY - 4.5, "Yes")   # ke samping dulu, lalu turun
@@ -130,7 +130,7 @@ garis([(XBL, YB + BH), (XBL, 79), (CR, 79)], panah=False)
 garis([(XBR, YB + BH), (XBR, 79), (CR, 79)], panah=False)
 garis([(CR, 79), (CR, 82)])
 bentuk(MSO_SHAPE.FLOWCHART_PROCESS, XR, 82, WR, 18,
-       "Robustness checks: relay at 49.7 Hz and latched\nFFR, primary-reserve map, ablation of α and of\nthe gate, SOC near its limits, inertia sweep,\nload rejection (S6)")
+       "Robustness checks: relay at 49.7 Hz and latched\nFFR, primary reserve (map and S3–S4 runs),\nablation of α and of the gate, SOC near its\nlimits, inertia sweep, load rejection (S6)")
 garis([(CR, 100), (CR, 103)])
 bentuk(MSO_SHAPE.FLOWCHART_PROCESS, XR, 103, WR, 12,
        "Switching-level testbed: coupled battery converter,\nswing-equation grid emulator (Simulink)")
