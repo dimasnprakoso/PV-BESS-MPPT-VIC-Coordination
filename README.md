@@ -46,6 +46,23 @@ outputs follow the notation of the paper.
 | `matlab/PVonGrid_patched.slx` | Earlier switching model, kept **only** as the block source (PV array, MOSFETs) for `bangun_testbed.m`; its results are not used in the paper because its DC-side power balance is not conserved | |
 | `figures/` | Output folder for the diagnostic plots written by `python/fullmodel.py`, `plot_pareto.py` and `s3_decomposition.py` when they are run (empty in the repository). These plots are not the figures of the paper | |
 
+## Scenario names in the code and in the paper
+
+The code, the data files and this README use the scenario names of the first version of the study. In the revised
+paper the cloud-passing scenario S2 was withdrawn (its frequency nadirs lie outside the validity of the aggregated
+swing model) and the remaining scenarios were renumbered:
+
+| Code / data | Paper (revision R1) | Scenario |
+|---|---|---|
+| `S1` | S1 | constant irradiance |
+| `S2` | withdrawn | cloud-passing ramp, 70 % generation loss (still computed by `fullmodel.py`) |
+| `S3` | S2 | load-step frequency event |
+| `S4` | S3 | low-inertia grid |
+| `S5` | S4 | failure-mode test (nominal event, spectral detection) |
+| `S6` | S5 | load rejection (charging branch) |
+
+For example, `traj_S5_*.csv` and `hasil_S5_mode*.mat` belong to scenario S4 of the paper.
+
 ## Reproduce
 
 Python 3.11 or newer:

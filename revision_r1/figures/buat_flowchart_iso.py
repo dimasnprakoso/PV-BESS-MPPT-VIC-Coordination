@@ -80,7 +80,7 @@ XL, WL = 8, 66
 CL = XL + WL / 2
 bentuk(MSO_SHAPE.FLOWCHART_TERMINATOR, CL - 15, 3, 30, 7, "Start", bold=True)
 bentuk(MSO_SHAPE.FLOWCHART_DATA, XL, 14, WL, 13,
-       "Input: plant and grid parameters,\nscenarios S1–S5 (Table 2)")
+       "Input: plant and grid parameters (Table 2),\nscenarios S1–S4 (Section 3.5)")
 bentuk(MSO_SHAPE.FLOWCHART_PROCESS, XL, 31, WL, 14,
        "Averaged PV–BESS model: single-diode PV,\nP&O MPPT, battery SOC, PLL, VIC and\naggregate swing equation (Python and Julia)")
 bentuk(MSO_SHAPE.FLOWCHART_PROCESS, XL, 49, WL, 12,
@@ -92,7 +92,7 @@ bentuk(MSO_SHAPE.FLOWCHART_PROCESS, XL, 65, WL, 12,
 bentuk(MSO_SHAPE.FLOWCHART_DECISION, CL - 28, 81, 56, 22,
        "Python–Julia bit-exact\nand initial RoCoF within\n0.5 % of ΔP/(2H_{sys})?", size=7.2)
 bentuk(MSO_SHAPE.FLOWCHART_PROCESS, XL, 107, WL, 16,
-       "Scenario evaluation: S1–S5 × five controllers\n× 100 realisations; nadir, RoCoF, MPP deviation,\nBESS throughput; effect sizes (Cliff's δ)")
+       "Scenario evaluation: S1–S4 × five controllers\n× 100 realisations; nadir, RoCoF, MPP deviation,\nBESS throughput; effect sizes (Cliff's δ)")
 garis([(CL, 10), (CL, 14)])
 garis([(CL, 27), (CL, 31)])
 garis([(CL, 45), (CL, 49)])
@@ -132,7 +132,7 @@ garis([(XBL, YB + BH), (XBL, 79), (CR, 79)], panah=False)
 garis([(XBR, YB + BH), (XBR, 79), (CR, 79)], panah=False)
 garis([(CR, 79), (CR, 82)])
 bentuk(MSO_SHAPE.FLOWCHART_PROCESS, XR, 82, WR, 18,
-       "Robustness checks: relay at 49.7 Hz and latched\nFFR, primary reserve (map and S3–S4 runs),\nablation of α and of the gate, SOC near its\nlimits, inertia sweep, load rejection (S6)")
+       "Robustness checks: relay at 49.7 Hz and latched\nFFR, primary reserve (map and S2–S3 runs),\nablation of α and of the gate, SOC near its\nlimits, inertia sweep, load rejection (S5)")
 garis([(CR, 100), (CR, 103)])
 bentuk(MSO_SHAPE.FLOWCHART_PROCESS, XR, 103, WR, 12,
        "Switching-level testbed: coupled battery converter,\nswing-equation grid emulator (Simulink)")
