@@ -42,9 +42,9 @@ outputs follow the notation of the paper.
 | `revision_r1/simulation/sapuan_H.py` | Inertia sweep, nominal S3 | Fig. 6, Sec. 4-6 |
 | `revision_r1/simulation/simulink/testbed/` | Switching-level testbed (Simulink, Specialized Power Systems, discrete 2 µs): `Testbed_R1.slx`, its build script `bangun_testbed.m`, controllers `ctrl_*.m`, run script `jalankan_testbed.m`, results `hasil_S5_mode{0..3}.mat`, analysis `analisis_testbed.py` | Table 8, Fig. 8, Sec. 4-12 |
 | `revision_r1/results/` | Raw results, logs and effect-size tables of the R1 tests | |
-| `revision_r1/figures/` | Figures as printed (PDF, SVG, PNG 600 dpi), `render_ulang.py` (Figs. 3–6), `buat_flowchart_iso.py` (Fig. 1), `fig1_arch.tex` (Fig. 2) | Figs. 1–8 |
+| `revision_r1/figures/` | Figures as printed (PDF, SVG, PNG 600 dpi), `render_ulang.py` (Figs. 3–6), `buat_flowchart_iso.py` (Fig. 1), `fig1_arch.tex` and `buat_gbr2_pptx.py` (Fig. 2, TikZ and PowerPoint); Figs. 7–8 come from `simulation/gambar_peta_lc.py` and `simulation/simulink/testbed/analisis_testbed.py`. **These are the figures of the paper** | Figs. 1–8 |
 | `matlab/PVonGrid_patched.slx` | Earlier switching model, kept **only** as the block source (PV array, MOSFETs) for `bangun_testbed.m`; its results are not used in the paper because its DC-side power balance is not conserved | |
-| `figures/` | Figures written by the scripts in `python/` | |
+| `figures/` | Output folder for the diagnostic plots written by `python/fullmodel.py`, `plot_pareto.py` and `s3_decomposition.py` when they are run (empty in the repository). These plots are not the figures of the paper | |
 
 ## Reproduce
 
